@@ -1,2 +1,2 @@
 # PowerShell
-A few PowerShell (and cmd) one-liners and scripts
+A few (NON-VIBE-CODED!!! and previously tested) PowerShell (and cmd) one-liners and scripts
