@@ -1,0 +1,1 @@
+﻿Get-ChildItem –Path  “C:\Backups” –Recurse | Where-Object CreationTime –lt (Get-Date).AddDays(-5) | Remove-Item
