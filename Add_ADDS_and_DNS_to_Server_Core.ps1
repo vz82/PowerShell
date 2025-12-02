@@ -1,0 +1,2 @@
+﻿#A one-liner for installing ADDS and DNS to Server Core
+Install-ADDSForest -DomainName DOMAIN_NAME_COMES_HERE -SafeModeAdministratorPassword $Password -DomainNetbiosName DOMAIN_NET_BIOS_NAME_COMES_HERE -DomainMode Win2012R2 -ForestMode Win2012R2 -DatabasePath "%SYSTEMROOT%\NTDS" -LogPath "%SYSTEMROOT%\NTDS" -SysvolPath "%SYSTEMROOT%\SYSVOL" -NoRebootOnCompletion -InstallDns -Force
