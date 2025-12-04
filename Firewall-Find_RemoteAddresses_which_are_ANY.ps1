@@ -1,0 +1,1 @@
+﻿Get-NetFirewallAddressFilter | Where-Object –FilterScript { $_.RemoteAddress –eq "Any" }
